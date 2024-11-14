@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb50f7289169d154f8e0a85edc1b8ef4, type: 3}
+  m_Name: MarioGalaxyDeck
+  m_EditorClassIdentifier: 
+  skinName: Galaxy Deck
+  skinDescription: To the stars and beyond
+  unlockMethod: 2
+  unlockCost: 5
+  cardBack: {fileID: -2145309291, guid: cf83c30660d5e2e429391c8235a85b85, type: 3}
+  starSprites:
+    cardSprite: {fileID: 1350305378, guid: cf83c30660d5e2e429391c8235a85b85, type: 3}
+    valueSprite: {fileID: -1070310735, guid: 92d95ee8a9558bd43881dc3e1ed7f5c5, type: 3}
+  marioSprites:
+    cardSprite: {fileID: -2142278848, guid: cf83c30660d5e2e429391c8235a85b85, type: 3}
+    valueSprite: {fileID: 670251389, guid: 92d95ee8a9558bd43881dc3e1ed7f5c5, type: 3}
+  luigiSprites:
+    cardSprite: {fileID: 1056218598, guid: cf83c30660d5e2e429391c8235a85b85, type: 3}
+    valueSprite: {fileID: -13855674, guid: 92d95ee8a9558bd43881dc3e1ed7f5c5, type: 3}
+  flowerSprites:
+    cardSprite: {fileID: -2132509286, guid: cf83c30660d5e2e429391c8235a85b85, type: 3}
+    valueSprite: {fileID: 847813440, guid: 92d95ee8a9558bd43881dc3e1ed7f5c5, type: 3}
+  mushroomSprites:
+    cardSprite: {fileID: 418025158, guid: cf83c30660d5e2e429391c8235a85b85, type: 3}
+    valueSprite: {fileID: -1485417785, guid: 92d95ee8a9558bd43881dc3e1ed7f5c5, type: 3}
+  cloudSprites:
+    cardSprite: {fileID: -740305531, guid: cf83c30660d5e2e429391c8235a85b85, type: 3}
+    valueSprite: {fileID: 6482395, guid: 92d95ee8a9558bd43881dc3e1ed7f5c5, type: 3}

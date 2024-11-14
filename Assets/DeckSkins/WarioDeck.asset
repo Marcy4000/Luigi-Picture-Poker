@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinName: Wario Deck
   skinDescription: Show your love for coins
-  obtainMethod: Buy at the shop
+  unlockMethod: 3
+  unlockCost: 50
   cardBack: {fileID: 142855764, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
   starSprites:
     cardSprite: {fileID: 996534012, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
