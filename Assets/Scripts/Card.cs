@@ -22,9 +22,25 @@ public class Card : MonoBehaviour
     public void InitializeCard(CardType type)
     {
         cardType = type;
-        frontSpriteRenderer.sprite = DeckSkinManager.instance.CurrentDeckSkin.GetSpritesForType(type).cardSprite;
-        backSpriteRenderer.sprite = DeckSkinManager.instance.CurrentDeckSkin.cardBack;
+        UpdateCardSprite();
+        DeckSkinManager.instance.OnDeckSkinChanged += UpdateCardSprite;
         FlipCard(false, false);
+    }
+
+    private void OnDestroy()
+    {
+        DeckSkinManager.instance.OnDeckSkinChanged -= UpdateCardSprite;
+    }
+
+    private void UpdateCardSprite()
+    {
+        if (frontSpriteRenderer == null || backSpriteRenderer == null)
+        {
+            return;
+        }
+
+        frontSpriteRenderer.sprite = DeckSkinManager.instance.CurrentDeckSkin.GetSpritesForType(cardType).cardSprite;
+        backSpriteRenderer.sprite = DeckSkinManager.instance.CurrentDeckSkin.cardBack;
     }
 
     public void FlipCard()

@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb50f7289169d154f8e0a85edc1b8ef4, type: 3}
   m_Name: WarioDeck
   m_EditorClassIdentifier: 
+  skinName: Wario Deck
+  skinDescription: Show your love for coins
+  obtainMethod: Buy at the shop
   cardBack: {fileID: 142855764, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
   starSprites:
     cardSprite: {fileID: 996534012, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}

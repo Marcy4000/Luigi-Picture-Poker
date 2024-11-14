@@ -12,6 +12,8 @@ public enum TurnResults { PlayerWins, LuigiWins, Tie }
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     [SerializeField] private GameObject cardPrefab;
     [SerializeField] private Transform[] playerCardPos;
     [SerializeField] private Transform[] luigiCardPos;
@@ -41,6 +43,23 @@ public class GameManager : MonoBehaviour
 
     private CardGenerator cardGenerator = new CardGenerator();
 
+    public int Coins => coins;
+    public int Stars => stars;
+
+    public event System.Action OnTurnEnded;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Start()
     {
         // Initialize hands and card positions
@@ -64,7 +83,7 @@ public class GameManager : MonoBehaviour
     {
         coinsText.text = $"{coins}x";
         starsText.text = $"{stars}x";
-        betText.text = $"{betAmount}x"; 
+        betText.text = $"{betAmount}x";
     }
 
     private IEnumerator HandCards()
@@ -369,6 +388,8 @@ public class GameManager : MonoBehaviour
 
         betAmount = 1 + Mathf.FloorToInt(stars / 5);
 
+        OnTurnEnded?.Invoke();
+
         if (coins <= 0)
         {
             EndGame();
@@ -641,6 +662,15 @@ public class GameManager : MonoBehaviour
             coins++;
             UpdateUI();
             Debug.Log("Bet decreased to: " + betAmount);
+        }
+    }
+
+    public void RemoveCoins(int amount)
+    {
+        if (coins >= amount)
+        {
+            coins -= amount;
+            UpdateUI();
         }
     }
 }

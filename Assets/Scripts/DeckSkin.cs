@@ -3,6 +3,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewDeckSkin", menuName = "Card Game/Deck Skin")]
 public class DeckSkin : ScriptableObject
 {
+    public string skinName; // Name of the skin
+    [TextArea(4, 10)]
+    public string skinDescription; // Description of the skin
+
+    public UnlockMethod unlockMethod; // Method to unlock the skin
+    public int unlockCost; // Cost to unlock the skin
+
     public Sprite cardBack; // Sprite for the back of the card
 
     [System.Serializable]
@@ -34,3 +41,5 @@ public class DeckSkin : ScriptableObject
         };
     }
 }
+
+public enum UnlockMethod { None, Coins, Stars, Purchase }

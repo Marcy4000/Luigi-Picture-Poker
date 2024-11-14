@@ -9,6 +9,11 @@ public class CardValueHolder : MonoBehaviour
 
     private List<GameObject> valueObjects = new List<GameObject>();
 
+    private void Start()
+    {
+        DeckSkinManager.instance.OnDeckSkinChanged += Initialize;
+    }
+
     public void Initialize()
     {
         foreach (GameObject valueObject in valueObjects)

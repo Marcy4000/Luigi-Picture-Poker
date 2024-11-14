@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb50f7289169d154f8e0a85edc1b8ef4, type: 3}
   m_Name: DefaultDeck
   m_EditorClassIdentifier: 
+  skinName: Mario Deck
+  skinDescription: The classic deck
+  obtainMethod: Obtained by default
   cardBack: {fileID: -1072661152, guid: 20efddfe364fd034892159aabd8595f8, type: 3}
   starSprites:
     cardSprite: {fileID: 1935214767, guid: 20efddfe364fd034892159aabd8595f8, type: 3}
