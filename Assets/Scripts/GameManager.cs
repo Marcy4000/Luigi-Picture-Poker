@@ -367,7 +367,7 @@ public class GameManager : MonoBehaviour
 
         cameraAnimator.SetBool("FocusOnCards", false);
 
-        betAmount = 1;
+        betAmount = 1 + Mathf.FloorToInt(stars / 5);
 
         if (coins <= 0)
         {
@@ -605,6 +605,23 @@ public class GameManager : MonoBehaviour
         {
             betAmount++;
             coins--;
+            UpdateUI();
+
+            AudioManager.PlaySound(DefaultSounds.BetCoin);
+
+            Debug.Log("Bet increased to: " + betAmount);
+        }
+    }
+
+    public void AllIn()
+    {
+        if (GameState != GameState.PlayerChoice)
+            return;
+
+        if (coins > 0)
+        {
+            betAmount += coins;
+            coins = 0;
             UpdateUI();
 
             AudioManager.PlaySound(DefaultSounds.BetCoin);
