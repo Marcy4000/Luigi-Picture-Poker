@@ -1,0 +1,2667 @@
+fileFormatVersion: 2
+guid: be95bde9e30465141806e055c5619625
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a396963b868af149975eed36bef7848
+      internalID: -2110590942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 175
+        width: 20
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86922d8031125424aa09ed937efc86ed
+      internalID: -1000181930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 175
+        width: 20
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7ed14d50c59d341a72b5f1c09dffac
+      internalID: 142557945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 175
+        width: 20
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba05d2d528c1414dbff5cb45459dbef
+      internalID: -1551462344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8477e06eb1c3fe498ab81d166a52a8e
+      internalID: 1564322524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ad19da7237fc489d4daeeda45b400
+      internalID: -1214179237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a60bd6f8ca91f44ea24d561fecb56f7
+      internalID: 1984274320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900c3231fffc40043a015e3858f28367
+      internalID: -1286948952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd0e0effbae1ae4f81d547678e273a7
+      internalID: -483843195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_9
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 224
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a99c06ee06760488f165e1adbff409
+      internalID: -925594366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_10
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 224
+        width: 4
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62667ad0d963734aa4457def6fa90df
+      internalID: 680103793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 224
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc5eb76eaf533340b7c96a5756d8b0e
+      internalID: 1925938059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_12
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 224
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a447a08c193fc4797c1645c24f1360
+      internalID: 1099156556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_13
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 224
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e11153091538549ad17966b0e285a0
+      internalID: 1523085051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_14
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 224
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f764b3359fa1b574b9c51d938b1a8d17
+      internalID: 1073951869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 224
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd20f7679ecf24eb444d8278228636
+      internalID: -931302912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_16
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 224
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95492a5635da40546882302ffe495dca
+      internalID: -1936460265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_17
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 175
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4847caec1f235704eb50da3cb3a0d204
+      internalID: -1732107768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_18
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 175
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d7e6851f218724997c6959afda4362
+      internalID: -1832598522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 175
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4858d643344e802478a6cf443ab85667
+      internalID: -1844382529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 175
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde10b7d0d66927439befc5f51b1319d
+      internalID: -764841551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 175
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b5d0e1ffb43d243975bba956c374c8
+      internalID: 958509220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_22
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 175
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ad31668fd82f44da3ef6306c0fc773
+      internalID: -154111241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_23
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 175
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2052a2d4784894eb6defedac4a5584
+      internalID: -426868812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_24
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 175
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f5c267bebc91a4d9bbaba3e98fdc1c
+      internalID: 1812947088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_25
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 175
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a0d180ce239184d9a981c1634adaae
+      internalID: -543721549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 175
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041797969ae73bb44a9d86e0e274f08d
+      internalID: -896846701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 78
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3002ce0b79cea4642bd2b3bc961b09a4
+      internalID: -668512589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_28
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 158
+        width: 108
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8fa53e752cbef45a2ca19ea633daf8
+      internalID: -1079972604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_32
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 148
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987efbd6ded6067489de96ff5ab4691f
+      internalID: 1237701125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_33
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059eac3392b0d244482388b360259c07
+      internalID: 2061010667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_34
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 154
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2536ffa92ba26dc45ac662c4a46a40c2
+      internalID: 1179311539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_35
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a6e4f5d781894dbbaa2cabc8e7b8d
+      internalID: -1770902337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_36
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2482e2eed33fb468b47b08707b6955
+      internalID: -842484014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_37
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830cb12e69f8ba947bfdb903e36f33c2
+      internalID: 1612163315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_38
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1674c1c5c7ce05242a57441aeb40826e
+      internalID: 1009941965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_39
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4913a0c2e09447348a48fcdb1f2964c4
+      internalID: -165247405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_40
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420e6d11b98268346ae54c7c9f50669e
+      internalID: 879367576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_41
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b90e18d94f2ca44ae5a24870cea4bc
+      internalID: -824641923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_42
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 154
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee2e0b204d541343b8781c3c5be5624
+      internalID: 939828291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_43
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 142
+        width: 110
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2f0c83cba16d64faf0e8ca22d150c0
+      internalID: -114986539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_50
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 114
+        width: 177
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c05e3f8583ca314082d013626acb8fa
+      internalID: 966787287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_51
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 126
+        width: 103
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11e9d9ce866ad345998d529a36a32cc
+      internalID: 1522452050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_58
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 110
+        width: 107
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6f874fe73dc5d4bb3d809d2b6398e5
+      internalID: -46706953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_62
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 83
+        width: 175
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3f8727bc0fc1844befd7c89ecc2b70
+      internalID: 486724747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_65
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 94
+        width: 70
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76f760f14f98304dbe45ffa82c3d613
+      internalID: 1381536940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968c9ca4c52d6734d80af672351e0e28
+      internalID: 1792859595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 44
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d7d2b9d03a1e746a9cd80a63f54d5a
+      internalID: 1621708525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_72
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 44
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59006e4cae25c14a9c883f5987e0778
+      internalID: -999995631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_73
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 78
+        width: 55
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b572d3e21bec047a50baa9ba3c266f
+      internalID: 1336607563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_75
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 56
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f76e0ebd6c65e047a681610315f0558
+      internalID: -763630512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_76
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 59
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3cbba2a2038ea4e935528ed7028238
+      internalID: 80380377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_77
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 50
+        width: 185
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e4797898e8a08488028d51bb95f23d
+      internalID: 1438051027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_81
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d5e80a4241ace4982ad934b5ec0d08
+      internalID: -675394486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_82
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 62
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53431a77a5a9dc442b68a8b937e933dc
+      internalID: -27388598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_83
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3814c445c61dc8a4b9b513ad443c232e
+      internalID: 693457280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_84
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03554129e3d64f2408ade998fef27652
+      internalID: -1662821103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_85
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b77c3e7d1fd7c48927a6a935d87abe
+      internalID: -785525453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_86
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61089217e2c6fad42b0b41f16bb0e75c
+      internalID: 1158141804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_87
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630cda573903e3c4781463ff478c9611
+      internalID: -63264382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_88
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dc59da60b30ce4689d44d782144e81
+      internalID: 1586463717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_89
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451b5a3746d4b8947afd9984acf59671
+      internalID: 410763537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_90
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 62
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed3122edaf45014faad7bb44366e7eb
+      internalID: -1573487430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_91
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 62
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75083d5e31fbc4449b8545908c546252
+      internalID: 518162917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_96
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 45
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b824b7a252a7404aac08809c0f5002d
+      internalID: -1080240827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_97
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 46
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a51dc7d8ef1bdc43a249fa54d6c1497
+      internalID: -347884255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_98
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 46
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ad354a8124d2c459242228a1b2a55a
+      internalID: 1827127047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_99
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 46
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064249cfd6b06f24882079b860ec7b9a
+      internalID: 568292395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 46
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ff24b8ed2d93f48a9a18fb4d6d4d77
+      internalID: 252776502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_101
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 46
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bd18b7f43fa6349900985765da825b
+      internalID: 517735058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_102
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 46
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634e4cd51eb659a4fa0bd72b13ec62c3
+      internalID: 1172527101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_103
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 46
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8b36b2ee2bccb47ab8469b6726cd29
+      internalID: 599852078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_104
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 46
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84c8668c0c73f1468e5e1eec5321eec
+      internalID: -2029866723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_105
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 46
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4592e48fec6a844b60fa4e7fe06943
+      internalID: 419245348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_106
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 46
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe457131c374a2a4cb1e8228965223da
+      internalID: -1792321654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_107
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e351497ce14fcc4ca800bc252b01b67
+      internalID: -824654891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_108
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 40
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec639b7aaef01e641a4ee1e289871215
+      internalID: 80818929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_113
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c770e22282553c04896efd164b780a09
+      internalID: 432038824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_114
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 17
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7057b0912f474149bfc28b78f5b13b7
+      internalID: -983245355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_115
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 31
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962ec54291680f547897403a9fef2a46
+      internalID: 2009735270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_116
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 30
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ea3f4bab2c78240b2732f11a456890
+      internalID: -548440014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_117
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 30
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf83d744004d8b44f904aa8b95af7ea2
+      internalID: -251127707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_118
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 30
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ea601a0161cdc4e8485b0f8916d9c9
+      internalID: -456548896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_119
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 30
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d742ce8c6e8ca40ae367cc69ee7688
+      internalID: 977463026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_120
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 30
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b392f9ba08ea47a4faf33a8ae11108c7
+      internalID: -664405454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_121
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 30
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f3240aa731ab45a98d1c9b7129bb0
+      internalID: 1037323330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_122
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 30
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4440246c3e046144806e28d70a73402
+      internalID: -407113987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_123
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 30
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a600bf62225ee4ba25451cec5b6c70
+      internalID: -2142079463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_124
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 30
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8ed606bdbea1c498c31601f33dee5b
+      internalID: 325779724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_125
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 30
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae9bae9b3353644a9ec8f3e6dc730ec
+      internalID: 1607800217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_126
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 9
+        width: 99
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f064c35f5d0efb646bffe9a162503f0b
+      internalID: -165062354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_129
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830c3aedf28da1244866b26b9ab25e9d
+      internalID: 1887305578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_130
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 18
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4311839c5120bc942bbb92fd5760baff
+      internalID: -196628106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_131
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 14
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a1bc696d5917f44867c0dce067c1ee
+      internalID: -1139689721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_132
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 14
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af1e6df67c8ffa4595e8162496c3f1d
+      internalID: 945108599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_133
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 14
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea829ddd1320db4182b46b5edbaebba
+      internalID: 1975735852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_134
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 14
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c654f2d1f3084174283ae97caad50923
+      internalID: 1000514827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_135
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 14
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34ffff79d196e94ca7e0c2111245506
+      internalID: -38728778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_136
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 14
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7b7abfb18586c42aa737aec3c60333
+      internalID: -847632084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_137
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 14
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7415d2366c083ef4da56dabe61f207ae
+      internalID: 2023993362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 14
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ace1cfe6ce8d794e81e7bc91ecfbe99
+      internalID: 308951626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_139
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 14
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30401b331e4254b9680f654aa32dd2
+      internalID: 2017201996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_140
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 14
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ee51004355d664abadca32598b12c4
+      internalID: -192982249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_144
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d348f3aa53e664bbfd52ae916cdcfa
+      internalID: 149674395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_145
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aadfae8d87d1144b5c239b94f77c63
+      internalID: -1740978478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_146
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e745f7d8a53c19a49a3ef1f59d04cfc6
+      internalID: -1543157448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_147
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46890e63de709174e806742b9752e5d8
+      internalID: -332967338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_148
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1e09a11b32aad478c2cd6fd3b95d27
+      internalID: -327351210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_149
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70de00a997714d4b9dae9cbbee5f241
+      internalID: -325783773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_150
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a5204de82a4b449f595e61a1d768c
+      internalID: -848872531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_151
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cde1cfaec9ca544ae00d700c2a5b0e
+      internalID: -1054478067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_152
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14eb4e08bc06a6459c10b54ccd3605d
+      internalID: -312355650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - New Super Mario Bros - Table Minigames_153
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e7df131d3d42c408628111b4b868f4
+      internalID: 932923357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - New Super Mario Bros - Table Minigames_0: -2110590942
+      DS DSi - New Super Mario Bros - Table Minigames_1: -1000181930
+      DS DSi - New Super Mario Bros - Table Minigames_10: 680103793
+      DS DSi - New Super Mario Bros - Table Minigames_100: 252776502
+      DS DSi - New Super Mario Bros - Table Minigames_101: 517735058
+      DS DSi - New Super Mario Bros - Table Minigames_102: 1172527101
+      DS DSi - New Super Mario Bros - Table Minigames_103: 599852078
+      DS DSi - New Super Mario Bros - Table Minigames_104: -2029866723
+      DS DSi - New Super Mario Bros - Table Minigames_105: 419245348
+      DS DSi - New Super Mario Bros - Table Minigames_106: -1792321654
+      DS DSi - New Super Mario Bros - Table Minigames_107: -824654891
+      DS DSi - New Super Mario Bros - Table Minigames_108: 80818929
+      DS DSi - New Super Mario Bros - Table Minigames_109: -1570679297
+      DS DSi - New Super Mario Bros - Table Minigames_11: 1925938059
+      DS DSi - New Super Mario Bros - Table Minigames_110: 25183280
+      DS DSi - New Super Mario Bros - Table Minigames_111: 1662186576
+      DS DSi - New Super Mario Bros - Table Minigames_112: -1000474263
+      DS DSi - New Super Mario Bros - Table Minigames_113: 432038824
+      DS DSi - New Super Mario Bros - Table Minigames_114: -983245355
+      DS DSi - New Super Mario Bros - Table Minigames_115: 2009735270
+      DS DSi - New Super Mario Bros - Table Minigames_116: -548440014
+      DS DSi - New Super Mario Bros - Table Minigames_117: -251127707
+      DS DSi - New Super Mario Bros - Table Minigames_118: -456548896
+      DS DSi - New Super Mario Bros - Table Minigames_119: 977463026
+      DS DSi - New Super Mario Bros - Table Minigames_12: 1099156556
+      DS DSi - New Super Mario Bros - Table Minigames_120: -664405454
+      DS DSi - New Super Mario Bros - Table Minigames_121: 1037323330
+      DS DSi - New Super Mario Bros - Table Minigames_122: -407113987
+      DS DSi - New Super Mario Bros - Table Minigames_123: -2142079463
+      DS DSi - New Super Mario Bros - Table Minigames_124: 325779724
+      DS DSi - New Super Mario Bros - Table Minigames_125: 1607800217
+      DS DSi - New Super Mario Bros - Table Minigames_126: -165062354
+      DS DSi - New Super Mario Bros - Table Minigames_127: 1025585030
+      DS DSi - New Super Mario Bros - Table Minigames_128: 168686129
+      DS DSi - New Super Mario Bros - Table Minigames_129: 1887305578
+      DS DSi - New Super Mario Bros - Table Minigames_13: 1523085051
+      DS DSi - New Super Mario Bros - Table Minigames_130: -196628106
+      DS DSi - New Super Mario Bros - Table Minigames_131: -1139689721
+      DS DSi - New Super Mario Bros - Table Minigames_132: 945108599
+      DS DSi - New Super Mario Bros - Table Minigames_133: 1975735852
+      DS DSi - New Super Mario Bros - Table Minigames_134: 1000514827
+      DS DSi - New Super Mario Bros - Table Minigames_135: -38728778
+      DS DSi - New Super Mario Bros - Table Minigames_136: -847632084
+      DS DSi - New Super Mario Bros - Table Minigames_137: 2023993362
+      DS DSi - New Super Mario Bros - Table Minigames_138: 308951626
+      DS DSi - New Super Mario Bros - Table Minigames_139: 2017201996
+      DS DSi - New Super Mario Bros - Table Minigames_14: 1073951869
+      DS DSi - New Super Mario Bros - Table Minigames_140: -192982249
+      DS DSi - New Super Mario Bros - Table Minigames_141: -1391130029
+      DS DSi - New Super Mario Bros - Table Minigames_142: 1672115977
+      DS DSi - New Super Mario Bros - Table Minigames_143: 1780289152
+      DS DSi - New Super Mario Bros - Table Minigames_144: 149674395
+      DS DSi - New Super Mario Bros - Table Minigames_145: -1740978478
+      DS DSi - New Super Mario Bros - Table Minigames_146: -1543157448
+      DS DSi - New Super Mario Bros - Table Minigames_147: -332967338
+      DS DSi - New Super Mario Bros - Table Minigames_148: -327351210
+      DS DSi - New Super Mario Bros - Table Minigames_149: -325783773
+      DS DSi - New Super Mario Bros - Table Minigames_15: -931302912
+      DS DSi - New Super Mario Bros - Table Minigames_150: -848872531
+      DS DSi - New Super Mario Bros - Table Minigames_151: -1054478067
+      DS DSi - New Super Mario Bros - Table Minigames_152: -312355650
+      DS DSi - New Super Mario Bros - Table Minigames_153: 932923357
+      DS DSi - New Super Mario Bros - Table Minigames_16: -1936460265
+      DS DSi - New Super Mario Bros - Table Minigames_17: -1732107768
+      DS DSi - New Super Mario Bros - Table Minigames_18: -1832598522
+      DS DSi - New Super Mario Bros - Table Minigames_19: -1844382529
+      DS DSi - New Super Mario Bros - Table Minigames_2: 142557945
+      DS DSi - New Super Mario Bros - Table Minigames_20: -764841551
+      DS DSi - New Super Mario Bros - Table Minigames_21: 958509220
+      DS DSi - New Super Mario Bros - Table Minigames_22: -154111241
+      DS DSi - New Super Mario Bros - Table Minigames_23: -426868812
+      DS DSi - New Super Mario Bros - Table Minigames_24: 1812947088
+      DS DSi - New Super Mario Bros - Table Minigames_25: -543721549
+      DS DSi - New Super Mario Bros - Table Minigames_26: -896846701
+      DS DSi - New Super Mario Bros - Table Minigames_27: -668512589
+      DS DSi - New Super Mario Bros - Table Minigames_28: -1079972604
+      DS DSi - New Super Mario Bros - Table Minigames_29: 138276083
+      DS DSi - New Super Mario Bros - Table Minigames_3: -1551462344
+      DS DSi - New Super Mario Bros - Table Minigames_30: -806751171
+      DS DSi - New Super Mario Bros - Table Minigames_31: -473489363
+      DS DSi - New Super Mario Bros - Table Minigames_32: 1237701125
+      DS DSi - New Super Mario Bros - Table Minigames_33: 2061010667
+      DS DSi - New Super Mario Bros - Table Minigames_34: 1179311539
+      DS DSi - New Super Mario Bros - Table Minigames_35: -1770902337
+      DS DSi - New Super Mario Bros - Table Minigames_36: -842484014
+      DS DSi - New Super Mario Bros - Table Minigames_37: 1612163315
+      DS DSi - New Super Mario Bros - Table Minigames_38: 1009941965
+      DS DSi - New Super Mario Bros - Table Minigames_39: -165247405
+      DS DSi - New Super Mario Bros - Table Minigames_4: 1564322524
+      DS DSi - New Super Mario Bros - Table Minigames_40: 879367576
+      DS DSi - New Super Mario Bros - Table Minigames_41: -824641923
+      DS DSi - New Super Mario Bros - Table Minigames_42: 939828291
+      DS DSi - New Super Mario Bros - Table Minigames_43: -114986539
+      DS DSi - New Super Mario Bros - Table Minigames_44: 285551961
+      DS DSi - New Super Mario Bros - Table Minigames_45: 793329299
+      DS DSi - New Super Mario Bros - Table Minigames_46: -371912171
+      DS DSi - New Super Mario Bros - Table Minigames_47: -603545001
+      DS DSi - New Super Mario Bros - Table Minigames_48: -1891187425
+      DS DSi - New Super Mario Bros - Table Minigames_49: -1808919125
+      DS DSi - New Super Mario Bros - Table Minigames_5: -1214179237
+      DS DSi - New Super Mario Bros - Table Minigames_50: 966787287
+      DS DSi - New Super Mario Bros - Table Minigames_51: 1522452050
+      DS DSi - New Super Mario Bros - Table Minigames_52: 1224120725
+      DS DSi - New Super Mario Bros - Table Minigames_53: -350190368
+      DS DSi - New Super Mario Bros - Table Minigames_54: -578892264
+      DS DSi - New Super Mario Bros - Table Minigames_55: 1313782027
+      DS DSi - New Super Mario Bros - Table Minigames_56: 193088672
+      DS DSi - New Super Mario Bros - Table Minigames_57: 841131890
+      DS DSi - New Super Mario Bros - Table Minigames_58: -46706953
+      DS DSi - New Super Mario Bros - Table Minigames_59: 476308707
+      DS DSi - New Super Mario Bros - Table Minigames_6: 1984274320
+      DS DSi - New Super Mario Bros - Table Minigames_60: -900744407
+      DS DSi - New Super Mario Bros - Table Minigames_61: 329602258
+      DS DSi - New Super Mario Bros - Table Minigames_62: 486724747
+      DS DSi - New Super Mario Bros - Table Minigames_63: -481177960
+      DS DSi - New Super Mario Bros - Table Minigames_64: -380635203
+      DS DSi - New Super Mario Bros - Table Minigames_65: 1381536940
+      DS DSi - New Super Mario Bros - Table Minigames_66: -1068802021
+      DS DSi - New Super Mario Bros - Table Minigames_67: -397338431
+      DS DSi - New Super Mario Bros - Table Minigames_68: 1202192103
+      DS DSi - New Super Mario Bros - Table Minigames_69: -199126036
+      DS DSi - New Super Mario Bros - Table Minigames_7: -1286948952
+      DS DSi - New Super Mario Bros - Table Minigames_70: 1792859595
+      DS DSi - New Super Mario Bros - Table Minigames_71: 1621708525
+      DS DSi - New Super Mario Bros - Table Minigames_72: -999995631
+      DS DSi - New Super Mario Bros - Table Minigames_73: 1336607563
+      DS DSi - New Super Mario Bros - Table Minigames_74: 412881419
+      DS DSi - New Super Mario Bros - Table Minigames_75: -763630512
+      DS DSi - New Super Mario Bros - Table Minigames_76: 80380377
+      DS DSi - New Super Mario Bros - Table Minigames_77: 1438051027
+      DS DSi - New Super Mario Bros - Table Minigames_78: -1993106725
+      DS DSi - New Super Mario Bros - Table Minigames_79: -1095379528
+      DS DSi - New Super Mario Bros - Table Minigames_8: -483843195
+      DS DSi - New Super Mario Bros - Table Minigames_80: 1344159585
+      DS DSi - New Super Mario Bros - Table Minigames_81: -675394486
+      DS DSi - New Super Mario Bros - Table Minigames_82: -27388598
+      DS DSi - New Super Mario Bros - Table Minigames_83: 693457280
+      DS DSi - New Super Mario Bros - Table Minigames_84: -1662821103
+      DS DSi - New Super Mario Bros - Table Minigames_85: -785525453
+      DS DSi - New Super Mario Bros - Table Minigames_86: 1158141804
+      DS DSi - New Super Mario Bros - Table Minigames_87: -63264382
+      DS DSi - New Super Mario Bros - Table Minigames_88: 1586463717
+      DS DSi - New Super Mario Bros - Table Minigames_89: 410763537
+      DS DSi - New Super Mario Bros - Table Minigames_9: -925594366
+      DS DSi - New Super Mario Bros - Table Minigames_90: -1573487430
+      DS DSi - New Super Mario Bros - Table Minigames_91: 518162917
+      DS DSi - New Super Mario Bros - Table Minigames_92: -1626366680
+      DS DSi - New Super Mario Bros - Table Minigames_93: -799292590
+      DS DSi - New Super Mario Bros - Table Minigames_94: 1040142008
+      DS DSi - New Super Mario Bros - Table Minigames_95: -1053844656
+      DS DSi - New Super Mario Bros - Table Minigames_96: -1080240827
+      DS DSi - New Super Mario Bros - Table Minigames_97: -347884255
+      DS DSi - New Super Mario Bros - Table Minigames_98: 1827127047
+      DS DSi - New Super Mario Bros - Table Minigames_99: 568292395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

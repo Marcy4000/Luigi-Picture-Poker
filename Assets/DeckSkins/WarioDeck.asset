@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb50f7289169d154f8e0a85edc1b8ef4, type: 3}
+  m_Name: WarioDeck
+  m_EditorClassIdentifier: 
+  cardBack: {fileID: 142855764, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
+  starSprites:
+    cardSprite: {fileID: 996534012, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
+    valueSprite: {fileID: -1070310735, guid: 3a1af5407f9ba444184891e76c52b0c5, type: 3}
+  marioSprites:
+    cardSprite: {fileID: -33546800, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
+    valueSprite: {fileID: 670251389, guid: 3a1af5407f9ba444184891e76c52b0c5, type: 3}
+  luigiSprites:
+    cardSprite: {fileID: -1321865167, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
+    valueSprite: {fileID: -13855674, guid: 3a1af5407f9ba444184891e76c52b0c5, type: 3}
+  flowerSprites:
+    cardSprite: {fileID: -763399787, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
+    valueSprite: {fileID: 847813440, guid: 3a1af5407f9ba444184891e76c52b0c5, type: 3}
+  mushroomSprites:
+    cardSprite: {fileID: -1756908302, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
+    valueSprite: {fileID: -1485417785, guid: 3a1af5407f9ba444184891e76c52b0c5, type: 3}
+  cloudSprites:
+    cardSprite: {fileID: 1234424737, guid: 87cadedba392a5c4ab85e7a25ed2247f, type: 3}
+    valueSprite: {fileID: 6482395, guid: 3a1af5407f9ba444184891e76c52b0c5, type: 3}

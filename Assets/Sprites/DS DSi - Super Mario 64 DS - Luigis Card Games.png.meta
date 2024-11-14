@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 6df48dbeff3ab8749990fc281f005121
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540eb9ea1b19a084f865df7375823df2
+      internalID: -10813276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 125
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e18e945f5675fc4fb6bede11b00500b
+      internalID: -1290145995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 124
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3c4f09a24e17049afe925682aea663
+      internalID: -466610669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80af5799b254abd4bbc95bc67ca83de9
+      internalID: -1660745109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 89
+        width: 184
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0948319142704d4bbb7b7211345c423
+      internalID: 1047881304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 53
+        width: 185
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0f0f46b9a89684bab8a429f904cae6
+      internalID: 1192403914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_23
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 33
+        width: 133
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de06085af0a18c499ee306de2b37f91
+      internalID: 1124829961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_0
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1
+        width: 185
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9cd47310e4c56449cd3214a26f87e8
+      internalID: -1334838356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 159
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4503832ea2ee264ead8116bfaea0bfa
+      internalID: -19961364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 124
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f83b338ee8abc04785617dd9c2400cd
+      internalID: -1693486662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 89
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 5, y: 6, z: 6, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f7083b8bf58e64499f91003e4aaafa
+      internalID: -404337796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 68
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7c214d9b81faf4c8893955dc272e45
+      internalID: 542759094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 68
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cf7cc24bb6fa540acda3b5ed15698e
+      internalID: -858478950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 68
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dff1d404ad581e4aaf9a4f13ebb1bc1
+      internalID: -188192140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0d6b35bff2ecb47b7d45295542303e
+      internalID: 232584481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d4d8a392e7bde4e95c63f302e3d13e
+      internalID: 1463174862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a6d13e2c5fb0458a2df60eb8125a4
+      internalID: -1870201570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_15
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42c682ccf0d456489d6e5a54a36f348
+      internalID: -1244774669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e90b7cd884df994fa5087fa900b4697
+      internalID: 681320875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Super Mario 64 DS - Luigis Card Games_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 49
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcac4e455fa91f44e82205daf60aee9d
+      internalID: -1039877350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Super Mario 64 DS - Luigis Card Games_0: -1334838356
+      DS DSi - Super Mario 64 DS - Luigis Card Games_1: -19961364
+      DS DSi - Super Mario 64 DS - Luigis Card Games_10: -466610669
+      DS DSi - Super Mario 64 DS - Luigis Card Games_11: -1660745109
+      DS DSi - Super Mario 64 DS - Luigis Card Games_12: 1047881304
+      DS DSi - Super Mario 64 DS - Luigis Card Games_13: 1463174862
+      DS DSi - Super Mario 64 DS - Luigis Card Games_14: -1870201570
+      DS DSi - Super Mario 64 DS - Luigis Card Games_15: -1244774669
+      DS DSi - Super Mario 64 DS - Luigis Card Games_16: 681320875
+      DS DSi - Super Mario 64 DS - Luigis Card Games_17: 1192403914
+      DS DSi - Super Mario 64 DS - Luigis Card Games_18: -1039877350
+      DS DSi - Super Mario 64 DS - Luigis Card Games_19: -931954834
+      DS DSi - Super Mario 64 DS - Luigis Card Games_2: -1693486662
+      DS DSi - Super Mario 64 DS - Luigis Card Games_20: -1058720736
+      DS DSi - Super Mario 64 DS - Luigis Card Games_21: 2056830338
+      DS DSi - Super Mario 64 DS - Luigis Card Games_22: 1586705795
+      DS DSi - Super Mario 64 DS - Luigis Card Games_23: 1124829961
+      DS DSi - Super Mario 64 DS - Luigis Card Games_24: -2125594467
+      DS DSi - Super Mario 64 DS - Luigis Card Games_25: 2058192800
+      DS DSi - Super Mario 64 DS - Luigis Card Games_26: 1967462174
+      DS DSi - Super Mario 64 DS - Luigis Card Games_27: 1677600138
+      DS DSi - Super Mario 64 DS - Luigis Card Games_28: 2145470946
+      DS DSi - Super Mario 64 DS - Luigis Card Games_29: -1530638013
+      DS DSi - Super Mario 64 DS - Luigis Card Games_3: -404337796
+      DS DSi - Super Mario 64 DS - Luigis Card Games_30: -712818234
+      DS DSi - Super Mario 64 DS - Luigis Card Games_31: 2096428122
+      DS DSi - Super Mario 64 DS - Luigis Card Games_4: 542759094
+      DS DSi - Super Mario 64 DS - Luigis Card Games_5: -858478950
+      DS DSi - Super Mario 64 DS - Luigis Card Games_6: -188192140
+      DS DSi - Super Mario 64 DS - Luigis Card Games_7: 232584481
+      DS DSi - Super Mario 64 DS - Luigis Card Games_8: -10813276
+      DS DSi - Super Mario 64 DS - Luigis Card Games_9: -1290145995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

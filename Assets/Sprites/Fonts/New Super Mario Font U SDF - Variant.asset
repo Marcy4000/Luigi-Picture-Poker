@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: New Super Mario Font U SDF - Variant
+  m_EditorClassIdentifier: 
+  hashCode: 928990738
+  material: {fileID: -7902173530437748028, guid: 0223900f5185efe4999a97184dcceae6,
+    type: 2}
+  materialHashCode: -1464945806
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: 37b04f090d8af1c45a52792701792fc7
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 37b04f090d8af1c45a52792701792fc7,
+    type: 3}
+  m_SourceFontFile: {fileID: 0}
+  m_AtlasPopulationMode: 0
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: New Super Mario Font U
+    m_StyleName: Regular
+    m_PointSize: 90
+    m_Scale: 1
+    m_UnitsPerEM: 2048
+    m_LineHeight: 103.53516
+    m_AscentLine: 75.41016
+    m_CapLine: 58
+    m_MeanLine: 44
+    m_Baseline: 0
+    m_DescentLine: -18.36914
+    m_SuperscriptOffset: 75.41016
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -18.36914
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -12.832031
+    m_UnderlineThickness: 6.591797
+    m_StrikethroughOffset: 17.6
+    m_StrikethroughThickness: 6.591797
+    m_TabWidth: 22
+  m_GlyphTable:
+  - m_Index: 19
+    m_Metrics:
+      m_Width: 37.4375
+      m_Height: 52.734375
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 52.734375
+      m_HorizontalAdvance: 41.3125
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 38
+      m_Width: 38
+      m_Height: 53
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 23
+    m_Metrics:
+      m_Width: 46.0625
+      m_Height: 52.03125
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 52.03125
+      m_HorizontalAdvance: 50.09375
+    m_GlyphRect:
+      m_X: 143
+      m_Y: 10
+      m_Width: 47
+      m_Height: 53
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 65
+    m_Metrics:
+      m_Width: 42.890625
+      m_Height: 7.375
+      m_HorizontalBearingX: 0.875
+      m_HorizontalBearingY: -0.96875
+      m_HorizontalAdvance: 45
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 10
+      m_Width: 44
+      m_Height: 9
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  - m_Index: 90
+    m_Metrics:
+      m_Width: 50.84375
+      m_Height: 43.90625
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 43.90625
+      m_HorizontalAdvance: 54.796875
+    m_GlyphRect:
+      m_X: 73
+      m_Y: 10
+      m_Width: 51
+      m_Height: 44
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 48
+    m_GlyphIndex: 19
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 52
+    m_GlyphIndex: 23
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 95
+    m_GlyphIndex: 65
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 120
+    m_GlyphIndex: 90
+    m_Scale: 1
+  m_AtlasTextures:
+  - {fileID: -6181091128265160581, guid: 0223900f5185efe4999a97184dcceae6, type: 2}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
+  m_UsedGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 63
+    m_Height: 28
+  - m_X: 63
+    m_Y: 0
+    m_Width: 70
+    m_Height: 63
+  - m_X: 133
+    m_Y: 0
+    m_Width: 66
+    m_Height: 72
+  - m_X: 0
+    m_Y: 28
+    m_Width: 57
+    m_Height: 72
+  m_FreeGlyphRects:
+  - m_X: 199
+    m_Y: 0
+    m_Width: 824
+    m_Height: 1023
+  - m_X: 57
+    m_Y: 28
+    m_Width: 6
+    m_Height: 995
+  - m_X: 0
+    m_Y: 100
+    m_Width: 1023
+    m_Height: 923
+  - m_X: 57
+    m_Y: 72
+    m_Width: 966
+    m_Height: 951
+  - m_X: 57
+    m_Y: 63
+    m_Width: 76
+    m_Height: 960
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 1024
+  m_AtlasHeight: 1024
+  m_AtlasPadding: 9
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
+  m_FallbackFontAssetTable: []
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: 37b04f090d8af1c45a52792701792fc7
+    pointSizeSamplingMode: 0
+    pointSize: 90
+    padding: 9
+    packingMode: 0
+    atlasWidth: 1024
+    atlasHeight: 1024
+    characterSetSelectionMode: 7
+    characterSequence: 
+    referencedFontAssetGUID: 
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
