@@ -24,16 +24,21 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text coinsText;
     [SerializeField] private TMP_Text starsText;
     [SerializeField] private TMP_Text betText;
+    [SerializeField] private Slider betSlider;
     [SerializeField] private GameObject gameOverPanel;
-
     [SerializeField] private CardValueHolder cardValueHolder;
-
     [SerializeField] HandResultUI luigiHandResultUI;
     [SerializeField] HandResultUI playerHandResultUI;
 
-    private int coins = 10;
+    [SerializeField] private AudioLibrary audioLibrary;
+    [SerializeField] private TMP_Text highScoreText;
+
+    private long coins = 10;
     private int stars = 0;
-    private int betAmount = 1;
+    private long betAmount = 1;
+
+    private long highScoreCoins = 0;
+    private int highScoreStars = 0;
 
     private CardType[] luigiHand;
     private CardType[] playerHand;
@@ -43,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     private CardGenerator cardGenerator = new CardGenerator();
 
-    public int Coins => coins;
+    public long Coins => coins;
     public int Stars => stars;
 
     public event System.Action OnTurnEnded;
@@ -62,19 +67,33 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        // Initialize hands and card positions
+        highScoreCoins = PlayerPrefs.HasKey("HighScoreCoins") ? long.Parse(PlayerPrefs.GetString("HighScoreCoins", "0")) : 0;
+        highScoreStars = PlayerPrefs.GetInt("HighScoreStars", 0);
+
         luigiHand = new CardType[5];
         playerHand = new CardType[5];
         luigiCards = new Card[5];
         playerCards = new Card[5];
 
-        AudioManager.PlayMusic(DefaultMusic.CasinoTheme);
         cardGenerator.InitializeDeck();
         cardValueHolder.Initialize();
 
         gameOverPanel.SetActive(false);
 
         UpdateUI();
+
+        StartCoroutine(WaitForAudioLoad());
+
+        betSlider.minValue = 1;
+        betSlider.maxValue = coins > 0 ? coins + 1 : 1;
+        betSlider.value = betAmount;
+        betSlider.onValueChanged.AddListener(OnBetSliderChanged);
+    }
+    
+    private IEnumerator WaitForAudioLoad()
+    {
+        yield return new WaitUntil(() => audioLibrary.IsLoaded());
+        AudioManager.PlayMusic(DefaultMusic.CasinoTheme);
 
         GenerateNewHand();
     }
@@ -84,6 +103,29 @@ public class GameManager : MonoBehaviour
         coinsText.text = $"{coins}x";
         starsText.text = $"{stars}x";
         betText.text = $"{betAmount}x";
+        betSlider.maxValue = coins + betAmount;
+        betSlider.value = betAmount;
+        
+        if (highScoreText != null)
+            highScoreText.text = $"High Score:\n <sprite name=\"Coin\">x{highScoreCoins} <sprite name=\"Star\">x{highScoreStars}";
+    }
+
+    private void UpdateHighScores()
+    {
+        if (coins > highScoreCoins)
+        {
+            highScoreCoins = coins;
+            PlayerPrefs.SetString("HighScoreCoins", highScoreCoins.ToString());
+        }
+        
+        if (stars > highScoreStars)
+        {
+            highScoreStars = stars;
+            PlayerPrefs.SetInt("HighScoreStars", highScoreStars);
+        }
+        
+        PlayerPrefs.Save();
+        UpdateUI();
     }
 
     private IEnumerator HandCards()
@@ -203,7 +245,6 @@ public class GameManager : MonoBehaviour
     {
         Dictionary<CardType, int> cardCounts = new Dictionary<CardType, int>();
 
-        // Count occurrences of each card type in Luigi's hand
         foreach (CardType card in luigiHand)
         {
             if (cardCounts.ContainsKey(card))
@@ -216,14 +257,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // Select cards that appear only once and have the lowest value
         List<CardType> cardsToReplace = cardCounts
             .Where(pair => pair.Value == 1)
             .OrderBy(pair => (int)pair.Key)
             .Select(pair => pair.Key)
             .ToList();
 
-        // Mark the selected cards for replacement
         foreach (Card card in luigiCards)
         {
             if (cardsToReplace.Contains(card.CardType))
@@ -259,11 +298,9 @@ public class GameManager : MonoBehaviour
 
     private void GenerateNewHand()
     {
-        // Generate hands for Luigi and the player
         luigiHand = cardGenerator.GenerateHand();
         playerHand = cardGenerator.GenerateHand();
 
-        // Clean up previous cards in the scene
         for (int i = 0; i < 5; i++)
         {
             if (luigiCards[i] != null)
@@ -295,7 +332,7 @@ public class GameManager : MonoBehaviour
 
         foreach (Card card in luigiCards)
         {
-            card.FlipCard(true, false); // Workaround
+            card.FlipCard(true, false);
             card.FlipCard(false, true);
         }
 
@@ -323,8 +360,8 @@ public class GameManager : MonoBehaviour
         switch (results)
         {
             case TurnResults.PlayerWins:
-                int winnings = betAmount * rewardMultiplier;
-                coins += winnings;
+                long winnings = betAmount * rewardMultiplier;
+                coins = SafeAdd(coins, winnings);
                 stars++;
                 luigiAnimator.SetTrigger("PlayerWins");
 
@@ -334,7 +371,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log($"Player wins {winnings} coins!");
                 break;
             case TurnResults.LuigiWins:
-                if (stars > 0) stars--;  // Deduct a star on loss, if possible
+                if (stars > 0) stars--;
                 luigiAnimator.SetTrigger("LuigiWins");
                 Debug.Log("Luigi wins! Player loses the bet.");
 
@@ -343,7 +380,7 @@ public class GameManager : MonoBehaviour
 
                 break;
             case TurnResults.Tie:
-                coins += betAmount;  // Return the bet on a tie
+                coins = SafeAdd(coins, betAmount);
                 luigiAnimator.SetTrigger("LuigiWins");
                 Debug.Log("It's a tie! Bet returned.");
 
@@ -355,6 +392,7 @@ public class GameManager : MonoBehaviour
         }
 
         UpdateUI();
+        UpdateHighScores();
     }
 
     private int GetRewardMultiplier(HandType handType)
@@ -386,7 +424,7 @@ public class GameManager : MonoBehaviour
 
         cameraAnimator.SetBool("FocusOnCards", false);
 
-        betAmount = 1 + Mathf.FloorToInt(stars / 5);
+        betAmount = 1 + stars;
 
         OnTurnEnded?.Invoke();
 
@@ -402,31 +440,25 @@ public class GameManager : MonoBehaviour
 
     private TurnResults DetectWinner(HandInfo luigiHandInfos, HandInfo playerHandInfos)
     {
-        // Convert hand types to integer values for comparison
         int luigiHandValue = GetHandValue(luigiHandInfos);
         int playerHandValue = GetHandValue(playerHandInfos);
 
-        // Compare the hand values
         if (luigiHandValue > playerHandValue)
         {
-            // Luigi wins
             return TurnResults.LuigiWins;
         }
         else if (playerHandValue > luigiHandValue)
         {
-            // Player wins
             return TurnResults.PlayerWins;
         }
         else
         {
-            // If both hands have the same value, it's a tie
             return TurnResults.Tie;
         }
     }
 
     private int GetHandValue(HandInfo handInfo)
     {
-        // Assign values to different hand types for comparison
         int handValue = 0;
         switch (handInfo.handType)
         {
@@ -476,7 +508,7 @@ public class GameManager : MonoBehaviour
             case CardType.Cloud:
                 return 5;
             default:
-                return 0; // Fallback value if the card type isn't recognized
+                return 0;
         }
     }
 
@@ -486,30 +518,24 @@ public class GameManager : MonoBehaviour
         CardType[] sortedHand = new CardType[5];
         List<CardType> handList = startingHand.ToList();
 
-        // Sort by hand type priority first
         List<CardType> priorityCards = new List<CardType>();
         foreach (var type in handInfo.types)
         {
-            // Add cards of the current hand type to priorityCards
             priorityCards.AddRange(handList.Where(card => card == type));
         }
 
-        // Remove priority cards from handList
         foreach (var card in priorityCards)
         {
             handList.Remove(card);
         }
 
-        // Sort priority cards by hand type first, then by value within each hand type
         priorityCards = priorityCards
-            .OrderBy(card => handInfo.handType) // Assuming handType gives priority of hand type
-            .ThenBy(card => (int)card) // Sort by card value in descending order
+            .OrderBy(card => handInfo.handType)
+            .ThenBy(card => (int)card)
             .ToList();
 
-        // Sort remaining cards by value in descending order
         handList.Sort((a, b) => ((int)a).CompareTo((int)b));
 
-        // Combine priority cards and remaining sorted cards
         priorityCards.AddRange(handList);
 
         for (int i = 0; i < 5; i++)
@@ -525,7 +551,6 @@ public class GameManager : MonoBehaviour
     {
         Dictionary<CardType, int> cardCounts = new Dictionary<CardType, int>();
 
-        // Count occurrences of each card type
         foreach (CardType card in hand)
         {
             if (cardCounts.ContainsKey(card))
@@ -543,7 +568,6 @@ public class GameManager : MonoBehaviour
         HandType handType = HandType.Junk;
         List<CardType> handTypes = new List<CardType>();
 
-        // Determine hand types based on counts
         foreach (var cardCount in cardCounts)
         {
             switch (cardCount.Value)
@@ -569,13 +593,11 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // Check for Full House
         if (hasThreeOfAKind && hasPair)
         {
             handType = HandType.FullHouse;
         }
 
-        // Check for Two Pairs
         if (handTypes.Count == 2 && handType == HandType.OnePair)
         {
             handType = HandType.TwoPairs;
@@ -595,15 +617,42 @@ public class GameManager : MonoBehaviour
 
         AudioManager.PlaySound(DefaultSounds.LuigiLetsGo);
 
-        coins -= betAmount;
+        coins = SafeSubtract(coins, betAmount);
         UpdateUI();
+        betSlider.maxValue = coins + betAmount;
+        betSlider.value = betAmount;
         StartCoroutine(HandCards());
+    }
+
+    private void OnBetSliderChanged(float value)
+    {
+        if (GameState != GameState.PlayerChoice)
+        {
+            betSlider.value = betAmount;
+            return;
+        }
+
+        long newBet = Mathf.RoundToInt(value);
+        long delta = newBet - betAmount;
+
+        if (delta > 0 && coins >= delta)
+        {
+            coins = SafeSubtract(coins, delta);
+            betAmount = newBet;
+            AudioManager.PlaySound(DefaultSounds.BetCoin);
+        }
+        else if (delta < 0)
+        {
+            coins = SafeAdd(coins, -delta);
+            betAmount = newBet;
+        }
+
+        UpdateUI();
     }
 
     private void EndGame()
     {
         Debug.Log("Game Over! You've run out of coins.");
-        // Add any end game logic, like displaying a restart option
         gameOverPanel.SetActive(true);
     }
 
@@ -615,6 +664,7 @@ public class GameManager : MonoBehaviour
         betAmount = 1;
         UpdateUI();
         GenerateNewHand();
+        UpdateHighScores();
     }
 
     public void IncreaseBet()
@@ -622,11 +672,12 @@ public class GameManager : MonoBehaviour
         if (GameState != GameState.PlayerChoice)
             return;
 
-        if (betAmount < 5 && coins > 0)
+        if (coins > 0)
         {
             betAmount++;
-            coins--;
+            coins = SafeSubtract(coins, 1);
             UpdateUI();
+            betSlider.value = betAmount;
 
             AudioManager.PlaySound(DefaultSounds.BetCoin);
 
@@ -644,6 +695,7 @@ public class GameManager : MonoBehaviour
             betAmount += coins;
             coins = 0;
             UpdateUI();
+            betSlider.value = betAmount;
 
             AudioManager.PlaySound(DefaultSounds.BetCoin);
 
@@ -659,8 +711,9 @@ public class GameManager : MonoBehaviour
         if (betAmount > 1)
         {
             betAmount--;
-            coins++;
+            coins = SafeAdd(coins, 1);
             UpdateUI();
+            betSlider.value = betAmount;
             Debug.Log("Bet decreased to: " + betAmount);
         }
     }
@@ -669,9 +722,25 @@ public class GameManager : MonoBehaviour
     {
         if (coins >= amount)
         {
-            coins -= amount;
+            coins = SafeSubtract(coins, amount);
             UpdateUI();
         }
+    }
+
+    private long SafeAdd(long a, long b)
+    {
+        if (b < 0 && a < long.MinValue - b) return 0;
+        if (b > 0 && a > long.MaxValue - b) return long.MaxValue;
+        long result = a + b;
+        return result < 0 ? 0 : result;
+    }
+
+    private long SafeSubtract(long a, long b)
+    {
+        if (b < 0 && a > long.MaxValue + b) return long.MaxValue;
+        if (b > 0 && a < long.MinValue + b) return 0;
+        long result = a - b;
+        return result < 0 ? 0 : result;
     }
 }
 

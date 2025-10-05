@@ -32,6 +32,7 @@ public class DeckSkinManager : MonoBehaviour
             bool unlocked = skin.unlockMethod == UnlockMethod.None ? true : false;
             skinUnlocked.Add(unlocked);
         }
+        LoadState();
     }
 
     private void Start()
@@ -69,6 +70,7 @@ public class DeckSkinManager : MonoBehaviour
         if (index >= 0 && index < deckSkins.Count)
         {
             currentDeckSkinIndex = index;
+            SaveState();
             OnDeckSkinChanged?.Invoke();
         }
     }
@@ -79,6 +81,7 @@ public class DeckSkinManager : MonoBehaviour
         if (index != -1)
         {
             currentDeckSkinIndex = index;
+            SaveState();
             OnDeckSkinChanged?.Invoke();
         }
     }
@@ -96,12 +99,42 @@ public class DeckSkinManager : MonoBehaviour
     public void UnlockSkin(int index)
     {
         skinUnlocked[index] = true;
+        SaveState();
         OnDeckSkinUnlocked?.Invoke();
     }
 
     public void UnlockSkin(DeckSkin skin)
     {
         skinUnlocked[deckSkins.IndexOf(skin)] = true;
+        SaveState();
         OnDeckSkinUnlocked?.Invoke();
+    }
+
+    private void SaveState()
+    {
+        // Save unlocked skins as a string of 0s and 1s
+        string unlockedString = "";
+        for (int i = 0; i < skinUnlocked.Count; i++)
+        {
+            unlockedString += skinUnlocked[i] ? "1" : "0";
+        }
+        PlayerPrefs.SetString("DeckSkinsUnlocked", unlockedString);
+        PlayerPrefs.SetInt("SelectedDeckSkin", currentDeckSkinIndex);
+        PlayerPrefs.Save();
+    }
+
+    private void LoadState()
+    {
+        string unlockedString = PlayerPrefs.GetString("DeckSkinsUnlocked", null);
+        if (!string.IsNullOrEmpty(unlockedString) && unlockedString.Length == skinUnlocked.Count)
+        {
+            for (int i = 0; i < unlockedString.Length; i++)
+            {
+                skinUnlocked[i] = unlockedString[i] == '1';
+            }
+        }
+        currentDeckSkinIndex = PlayerPrefs.GetInt("SelectedDeckSkin", 0);
+        if (currentDeckSkinIndex < 0 || currentDeckSkinIndex >= deckSkins.Count)
+            currentDeckSkinIndex = 0;
     }
 }
