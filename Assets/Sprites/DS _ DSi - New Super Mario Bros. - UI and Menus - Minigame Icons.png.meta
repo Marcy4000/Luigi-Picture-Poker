@@ -1,0 +1,1067 @@
+fileFormatVersion: 2
+guid: ec381002b91dcc14fb6a5c0413c08cb1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 241
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a097a0cf6562b4da2f1ebc5bb2e4d0
+      internalID: -1646976664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 238
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c9de123a8efe6499ccfc7edf112a3e
+      internalID: -483415313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 238
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fae7523a6583d41acd50c8c1a74e21
+      internalID: -1860110360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 238
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b800a217f687c44eb30a38b79c33437
+      internalID: 1549698771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 238
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84c188c52aa50e44b9891444962941f
+      internalID: -612010857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_5
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 238
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570ae499184779240bf974e79539e916
+      internalID: -2063794215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 238
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4e8a84423a4d6479fa9db20e92ac70
+      internalID: -1621626370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 240
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18242d318bd06247902d7705f9f8265
+      internalID: 379778345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 188
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccbb66f82e1c8a43b3dc5d4d0a99d83
+      internalID: 752345573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 189
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cc2ca8549f17041a3927372958f85a
+      internalID: -167390017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 189
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e59dbee4720c44494363d2d8dd8738
+      internalID: 764669149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 189
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2d5a8252ccaea47911b588bb2039b9
+      internalID: 1242366561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 189
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9ef6cb848b57345acdbb65ae933868
+      internalID: -1447775992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 189
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6400d2c3226f22145a71e38f3106789f
+      internalID: -291662378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 189
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5e8dba57d1e62488fe6cb20ad6932e
+      internalID: -135218920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 190
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256f579dfda8e514cb33a466e7b9dadb
+      internalID: 18821911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 136
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6502e26fcb3d2a54ebcff50aebe14ad1
+      internalID: -1744711350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7199efd8cd610e46978217f27319702
+      internalID: -1024835674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6fd0dcdbe8a254f8a76d0e6079058b
+      internalID: -1138186391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b170607c66ec4eb858e023cdd06df
+      internalID: 491273519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15936a802a329544ebfc278bc8f6c8dc
+      internalID: -1719734619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_21
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4791e62346f984a81fa658222f89b7
+      internalID: -583335433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_22
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb27515bae62834596def6f4ea17b71
+      internalID: -1509818172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_23
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 139
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216a5eff2f31d404c904ab902b722f52
+      internalID: 45739750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 140
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13c4ac88e4d9b846a059527acaadf1c
+      internalID: 858215311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 84
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304ca05d6a88d454cbd895082674d9df
+      internalID: 761270431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca196875df804f844b68712e9ff7c6e8
+      internalID: -1536837796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9d946db0bd83d4599ceb951862737f
+      internalID: -86847109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce61140b85d17004fb6e569d27db562b
+      internalID: -1040309475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_29
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f6cd83a0f156e449c469ea0dbbebcc
+      internalID: 1547294117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_30
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0f636d6e63d5747b05a7e48463094b
+      internalID: 2080775042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_31
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f38f3888f4abe408455c2caaf43ba6
+      internalID: 827747912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_32
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f844e7e10a7c7c24f9a854ee1e92bd1c
+      internalID: 1066997721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 89
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749d068807fbee84db767bd6ca43dfe8
+      internalID: 1602820486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_34
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 90
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5358521198dc8b34380dd304043c0006
+      internalID: -1127175713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 33
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b5e9a76669054cb7fb680e4dd048e
+      internalID: 267121867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 27
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4047021bdf164f4db736af5d1946d74
+      internalID: -738886907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 27
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc8b40580ba5444cbef2b5d7d07fed8
+      internalID: 1196782760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_38
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 27
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dde696e1f404743a02f72beaa13277
+      internalID: -750757871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_39
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 27
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5091b1a4ab22614a8b712c4156ab4f2
+      internalID: -1494683872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 22
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2055f3d61a4a3f40adc28e8387decef
+      internalID: 1514624951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_42
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 38
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937b8e1edd004b94f8b07d5645764383
+      internalID: -1328998593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_0: -1646976664
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_1: -483415313
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_10: 764669149
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_11: 1242366561
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_12: -1447775992
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_13: -291662378
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_14: -135218920
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_15: 18821911
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_16: -1744711350
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_17: -1024835674
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_18: -1138186391
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_19: 491273519
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_2: -1860110360
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_20: -1719734619
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_21: -583335433
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_22: -1509818172
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_23: 45739750
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_24: 858215311
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_25: 761270431
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_26: -1536837796
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_27: -86847109
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_28: -1040309475
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_29: 1547294117
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_3: 1549698771
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_30: 2080775042
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_31: 827747912
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_32: 1066997721
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_33: 1602820486
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_34: -1127175713
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_35: 267121867
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_36: -738886907
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_37: 1196782760
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_38: -750757871
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_39: -1494683872
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_4: -612010857
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_40: 1514624951
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_41: 1074094816
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_42: -1328998593
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_43: 2127632448
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_44: 1383696135
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_5: -2063794215
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_6: -1621626370
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_7: 379778345
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_8: 752345573
+      DS _ DSi - New Super Mario Bros. - UI and Menus - Minigame Icons_9: -167390017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,7 +15,8 @@ MonoBehaviour:
   safeName: 
   presetDescription: 
   files:
-  - {fileID: 8300000, guid: dc6ce612d7e7fe8439a053574f3aef67, type: 3}
+  - {fileID: 8300000, guid: 171d2ffefb436c148868d74a268e9edb, type: 3}
+  neverRepeat: 0
   loopStart: 0
   loopEnd: 0
   bpm: 120
@@ -80,5 +81,3 @@ MonoBehaviour:
     lFReference: 0
     diffusion: 0
     density: 0
-  neverRepeat: 0
-  lastClipIndex: -1

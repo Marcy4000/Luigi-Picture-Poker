@@ -7787,6 +7787,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - New Super Mario Bros. - Minigames - Table Minigames_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 535
+        width: 143
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba9331296de9b94cacda21f227d3f6a
+      internalID: 1880144340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

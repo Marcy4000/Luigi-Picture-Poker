@@ -14,5 +14,6 @@
         LuigiYa
     }
     public enum DefaultMusic {
-        CasinoTheme
+        CasinoTheme,
+        FindLuigiTheme
     }

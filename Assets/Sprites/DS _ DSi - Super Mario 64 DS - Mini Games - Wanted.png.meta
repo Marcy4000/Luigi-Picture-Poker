@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 8b9d303b44bd14e40bd2089be2063b34
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 145
+        width: 256
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1e7a04af2b8a4d9c3f662f7e15b52
+      internalID: 1587189976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 226
+        width: 128
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0815a346485114e98220c528bc40b5
+      internalID: -515127397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 178
+        width: 128
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a237fcb779112b34c9223f5bc3d2e263
+      internalID: -1244101131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 134
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006294c7c52ddca488f3d537d0e1b7f6
+      internalID: -1002895655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 9
+        width: 124
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8aaa628ca935c4ca34c94c9df5b92a
+      internalID: 568607215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 115
+        width: 69
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c79aae56b644d43bd7be7dec5eac2b
+      internalID: -590872938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 114
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6482e27cd9d1469f1b7c16149a74b
+      internalID: -882024543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_23
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 114
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4395935acbb09c0469a57c929d5aacd1
+      internalID: -828297457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 114
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b4c409fc6bbe0498ac6c567fb4fe63
+      internalID: -1265706822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 114
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53508e0acc1542d4abd6e754b83e2cf0
+      internalID: 827506828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_35
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 47
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c869502ff13275f4a9da69917e86d724
+      internalID: 1924208510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -16}
+        - {x: -11.999996, y: -5.088005}
+        - {x: -11.999996, y: 0.030939102}
+        - {x: -11, y: 0}
+        - {x: -11, y: 7}
+        - {x: -3, y: 16}
+        - {x: 4, y: 16}
+        - {x: 12, y: 7}
+        - {x: 12, y: 0}
+        - {x: 13, y: 0}
+        - {x: 13, y: -5}
+        - {x: 3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3827e273812b8448d49d8450c0d407
+      internalID: 872665942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_37
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 8
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf606de8c59aecc4baeb76f1f3bf47ae
+      internalID: 1449479683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_38
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 5
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4815c488704c64594fda6d950b1322
+      internalID: -311179068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bf6ff5533ec2c4a90230aadbc860b2
+      internalID: 38477844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_26
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 114
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12d4b48f856378479337f5c572c7b7b
+      internalID: -1090288542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 114
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae25887c6553fe245ba7f3dd9f8828bd
+      internalID: 1668261255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 114
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687d5362f6f582c4793f2f8b963e320e
+      internalID: -416867610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 114
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2405cb58f8bd5e45a8a2ae86c4f778c
+      internalID: 796457404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 114
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6515d24976fe4991a57d291fbc9c5
+      internalID: -282746289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_31
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 114
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220b1c901ebf60f428cc4ffb1e5ef431
+      internalID: -478024323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421a872bb91686741920f267b7b70e3f
+      internalID: -2139040207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 47
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f4774995108ae469be82903388a28d
+      internalID: -1802485424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 46
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13add6fa58f769a42829514835ffb3d7
+      internalID: -830604087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6550ac02d3b6a4f84b126bda0c323b
+      internalID: -1141923857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 6
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae94e260ebf29bb418b9d1ae84b5d960
+      internalID: 133201196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c99e0abd386344aacfc9d208f89761
+      internalID: -518392809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9195bb8ee7d7f45b2ca54459e46d17
+      internalID: -1355960823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_0: 1587189976
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_1: -1141923857
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_10: 416996455
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_11: -341167130
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_12: 2029082499
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_13: 836570680
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_14: -323409576
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_15: -1002895655
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_16: 568607215
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_17: -590872938
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_18: -544670092
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_19: -287256777
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_2: 133201196
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_20: 1149683299
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_21: -1229308141
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_22: -882024543
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_23: -828297457
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_24: -1265706822
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_25: 827506828
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_26: -1090288542
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_27: 1668261255
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_28: -416867610
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_29: 796457404
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_3: -518392809
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_30: -282746289
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_31: -478024323
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_32: -2139040207
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_33: -1802485424
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_34: -830604087
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_35: 1924208510
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_36: 872665942
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_37: 1449479683
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_38: -311179068
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_39: 38477844
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_4: -515127397
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_5: -1244101131
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_6: -1355960823
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_7: -352029275
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_8: -231991016
+      DS _ DSi - Super Mario 64 DS - Mini Games - Wanted_9: 1115777693
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -88,10 +88,13 @@ public class GameManager : MonoBehaviour
         betSlider.maxValue = coins > 0 ? coins + 1 : 1;
         betSlider.value = betAmount;
         betSlider.onValueChanged.AddListener(OnBetSliderChanged);
+
+        UICircleFade.Instance.DoFadeOut(0.4f);
     }
     
     private IEnumerator WaitForAudioLoad()
     {
+        AudioManager.StopAllMusic();
         yield return new WaitUntil(() => audioLibrary.IsLoaded());
         AudioManager.PlayMusic(DefaultMusic.CasinoTheme);
 

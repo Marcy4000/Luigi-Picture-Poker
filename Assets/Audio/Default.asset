@@ -32,6 +32,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3e6d2357bb8f2c8498c40b060c5703ba, type: 2}
   Music:
   - {fileID: 11400000, guid: 575af7ee37797fe43a46a77511a640d3, type: 2}
+  - {fileID: 11400000, guid: de0302a6603f0eb4899dbaceba9435dd, type: 2}
   useCustomNames: 0
   generatedName: Default
   musicEnum: 
@@ -63,4 +64,5 @@ MonoBehaviour:
   - name: 
     files:
     - {fileID: 11400000, guid: 575af7ee37797fe43a46a77511a640d3, type: 2}
+    - {fileID: 11400000, guid: de0302a6603f0eb4899dbaceba9435dd, type: 2}
     foldout: 1

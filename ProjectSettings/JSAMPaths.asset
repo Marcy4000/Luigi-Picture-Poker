@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedLibrary:
-    savedObject: {fileID: 0}
+    guid: 2db91bf72ab5803419e575fc6e3fa229
   packagePath: Packages/com.brogrammist.jsam
   presetsPath: Assets/JSAMPresets/
